@@ -6,9 +6,14 @@ ehthumbs.db
 Thumbs.db
 .svn
 
+itsmattallen.css
+
 # Jekyll specifics
 _site
 
 # Vim swap and backup files
 *.swo
 *.swp
+
+#sass specifics
+.sass-cache/
