@@ -1,6 +1,21 @@
 /*----------------------------------*\
  * $NAVBAR
  \*---------------------------------*/
+/*Header bar colour */
+.headerbar{
+    background-color: #c2c2c2;
+}
+
+/* Get logo in there */
+.logo {
+    display:block;
+    float:left;
+}
+.logo img {
+    padding-top:0.4em;
+    padding-left:0.4em;
+    width:2em;
+}
 
 /* Clearfix */
 .navfix:before,
@@ -18,15 +33,13 @@
 /* Basic Styles */
 nav {
 	width: 100%;
-	background: #c2c2c2;
 	font-size: 1em;
 	font-family: 'PT Sans', Arial, sans-serif;
 	position: relative;
 }
 nav ul {
 	padding: 0;
-	margin: 0 auto;
-	width: 600px;
+	float: right;
 }
 nav li {
 	display: inline;
@@ -40,12 +53,6 @@ nav a {
 	text-decoration: none;
 	line-height: 3em;
 }
-nav li a {
-	border-right: 1px solid #505050;
-	box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-}
 nav li:last-child a {
 	border-right: 0;
 }
@@ -56,12 +63,9 @@ nav a:hover, nav a:active {
 nav a#pull {
 	display: none;
 }
-
-/*Styles for screen 600px and lower*/
-@media screen and (max-width: 600px) {
-	nav { 
-  		height: auto;
-  	}
+/* Current menu doesn't need this
+Styles for screen 767px and lower
+@media screen and (max-width: 767px) {
   	nav ul {
   		width: 100%;
   		display: block;
@@ -73,7 +77,6 @@ nav a#pull {
   	nav li {
   		width: 50%;
   		float: left;
-  		position: relative;
   	}
     nav li:last-child {
         width:100%;
@@ -84,35 +87,43 @@ nav a#pull {
         border:none;
   	}
 }
+*/
 
 /*Styles for screen 515px and lower*/
-@media only screen and (max-width : 480px) {
-	nav a {
+@media only screen and (max-width : 550px) {
+
+    .logo {
+        display:none;
+    }
+    nav a {
         line-height:4em;
     }
     nav ul {
+        width:100%;
 		display: none;
-		height: auto;
 	}
+    nav li {
+        width: 20%;
+        float: left;
+    }
+    nav li a {
+        width: 100%;
+    }
 	nav a#pull {
-		display: block;
-		width: 100%;
-		position: relative;
+		display:table;
+        width: 100%;
 	}
-	nav a#pull:after {
-		content:"";
-		background: url('nav-icon.png') no-repeat;
-		width: 30px;
-		height: 30px;
-		display: inline-block;
-		position: absolute;
-		right: 15px;
-		top: 10px;
-	}
+    nav a#pull img {
+        width:3em;
+        margin-top:0.8em; 
+    }
 }
 
 /*Smartphone*/
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 400px) {
+    nav ul{
+        width:100%;
+    }
 	nav li {
 		display: block;
 		float: none;
