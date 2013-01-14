@@ -34,8 +34,9 @@
 nav {
 	width: 100%;
 	font-size: 1em;
-	font-family: 'PT Sans', Arial, sans-serif;
-	position: relative;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 300;
+    position: relative;
 }
 nav ul {
 	padding: 0;
@@ -96,7 +97,7 @@ Styles for screen 767px and lower
         display:none;
     }
     nav a {
-        line-height:4em;
+        line-height:4em; 
     }
     nav ul {
         width:100%;
@@ -116,6 +117,9 @@ Styles for screen 767px and lower
     nav a#pull img {
         width:3em;
         margin-top:0.8em; 
+    }
+    nav a:hover, { 
+        background-color:#a2a2a2;
     }
 }
 
