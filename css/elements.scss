@@ -1,15 +1,16 @@
 .pictureblock {
     width:100%;
-    height:20em;
     background:url(../assets/fly20100222.jpg);
     background-size:cover;
+    height:12em;
 }
-
-h1 {
-    line-height:20em;
-    vertical-align:baseline;
-    font-family:'Open Sans Condensed', sans-serif;
+.heading {
+    margin-top:1em;
+    width:100%;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 2em;
     font-weight: 300;
     font-style: italic;
-    text-align:center;
+    display: inline-block;
+    text-align: center;
 }
