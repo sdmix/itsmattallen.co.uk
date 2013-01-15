@@ -3,7 +3,7 @@
  \*---------------------------------*/
 /*Header bar colour */
 .headerbar{
-    background-color: #c2c2c2;
+    background-color: #fff;
 }
 
 /* Get logo in there */
@@ -12,9 +12,9 @@
     float:left;
 }
 .logo img {
-    padding-top:0.4em;
-    padding-left:0.4em;
-    width:2em;
+    padding-top:0.8em;
+    padding-left:0.8em;
+    width:4em;
 }
 
 /* Clearfix */
@@ -47,19 +47,18 @@ nav li {
 	float: left;
 }
 nav a {
-	color: #505050;
+	color: #33a0a4;
 	display: inline-block;
 	width: 100px;
 	text-align: center;
 	text-decoration: none;
-	line-height: 3em;
+	line-height: 6em;
 }
 nav li:last-child a {
 	border-right: 0;
 }
 nav a:hover, nav a:active {
-	background-color: #505050;
-    color:#ffffff;
+    color:#000;
 }
 nav a#pull {
 	display: none;
@@ -91,7 +90,7 @@ Styles for screen 767px and lower
 */
 
 /*Styles for screen 515px and lower*/
-@media only screen and (max-width : 550px) {
+@media only screen and (max-width : 600px) {
 
     .logo {
         display:none;
@@ -115,10 +114,10 @@ Styles for screen 767px and lower
         width: 100%;
 	}
     nav a#pull img {
-        width:3em;
-        margin-top:0.8em; 
+        width:4em;
+        margin-top:0.6em; 
     }
-    nav a:hover, { 
+    nav a:hover { 
         background-color:#a2a2a2;
     }
 }
