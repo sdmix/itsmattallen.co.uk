@@ -8,12 +8,11 @@
 
 /* Get logo in there */
 .logo {
-    display:block;
-    float:left;
+   float: left;
 }
+
 .logo img {
-    padding-top:0.8em;
-    padding-left:0.8em;
+    padding:0.8em;
     width:4em;
 }
 
@@ -112,10 +111,12 @@ Styles for screen 767px and lower
 	nav a#pull {
 		display:table;
         width: 100%;
+        line-height:2em;
 	}
     nav a#pull img {
         width:4em;
-        margin-top:0.6em; 
+        padding: 0.8em;
+        padding-top:1em; 
     }
     nav a:hover {
         color:#000;
