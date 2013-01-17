@@ -2,10 +2,21 @@
  * $SONOTOCHILLIES
  \*---------------------------------*/
 
+/* Variable */
+
+/* $THEME TEXT COLOUR */
+$themecolor: #33a0a4;
+
+
 /* Global max width */
 .wrapper{
     max-width:1000px;
     margin:0 auto;
+}
+
+/* Global bottom margin */
+body {
+    margin-bottom: 2em;
 }
 
 /* Global floats */
@@ -17,3 +28,25 @@
     float:right!important;
 }
 
+/* Heading Structure */
+h1 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    color: $themecolor;
+}
+
+h2 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: $themecolor;
+}
+
+h3 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.5em;
+    color: $themecolor;
+}

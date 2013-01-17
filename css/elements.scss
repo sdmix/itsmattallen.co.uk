@@ -1,12 +1,15 @@
 .pictureblock {
     width:100%;
-    background:url(../assets/fly20100222.jpg);
-    background-size:cover;
-    height:12em;
 }
+    .fly {
+        background:url(../assets/fly20100222.jpg);
+        background-size:cover;
+        height:12em;
+    }
 .heading {
     margin-top:1em;
-	color: #33a0a4;
+	margin-bottom:1em;
+    color: #33a0a4;
     width:100%;
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-size: 2em;
