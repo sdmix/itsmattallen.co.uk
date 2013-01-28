@@ -3,7 +3,7 @@
  \*---------------------------------*/
 /*Header bar colour */
 .headerbar{
-    background-color: #fff;
+    background-color:#fff;
 }
 
 /* Get logo in there */
@@ -17,13 +17,13 @@
     width:4em;
 }
 .logocenter {
-    height:25%;
-    width:25%;
-    margin:37.5%;
-    margin-top:12.5%;
-    opacity:0.2;
-    filter:alpha(opacity=20);
-} 
+    height:50%;
+    width:100%;
+    text-align:center;
+    margin-top:7%;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+}
 
 /* Clearfix */
 .navfix:before,

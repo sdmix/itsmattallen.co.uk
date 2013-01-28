@@ -5,7 +5,14 @@
     .fly {
         background:url(../assets/fly20100222.jpg);
         background-size:cover;
+        background-position:fixed;
     }
+    @media only screen and (max-width: 500px) {
+        .fly {
+        background:url(../assets/fly20100222mini.jpg);
+        background-position:fixed;
+        }
+  } 
 .heading {
     margin-top:1em;
 	margin-bottom:1em;
