@@ -13,7 +13,9 @@ $themecolor: #33a0a4;
     max-width:1000px;
     margin:0 auto;
 }
-
+.spacer {
+    margin-bottom:3em;
+}
 /* Global bottom margin */
 @media only screen and (max-width:1031px) {
     .wrapper {
