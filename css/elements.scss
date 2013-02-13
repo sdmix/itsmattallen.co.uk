@@ -1,43 +1,22 @@
 .pictureblock {
     width:100%;
-    margin-bottom:2em;
 }
     .fly {
         background:url(/assets/fly20100222.jpg);
         background-size:cover;
     }
-    .immerse {
-        background:url(/assets/immerse-20090108.jpg);
-        background-size:cover;
-    }
-    @media only screen and (max-width: 500px) {
-        .fly {
-        background:url(/assets/fly20100222mini.jpg);
-        }
-  } 
-.heading {
-    line-height:13em;
-    color: #fff;
-    width:100%;
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    font-size: 2em;
-    font-weight: 400;
-    display: inline-block;
-    text-align: center;
-    text-shadow: 0em 0em 1em #000, 0em 0em 0.5em #000;  
+.red {
+    background-color:#be4040;
 }
-.heading img {
-    width:50%;
-        @media only screen and (max-width:600px) {
-            width:90%;
-        }
+.blue {
+    background-color:#4078be;
 }
-.cover {
-background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 75%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(75%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 75%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 75%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 75%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 75%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+.green {
+    background-color:#40be4c;
+}
+.purple {
+    background-color:#a540be;
+}
+.yellow {
+    background-color:#f5dd11;
 }
