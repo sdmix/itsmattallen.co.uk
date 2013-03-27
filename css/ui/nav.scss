@@ -1,11 +1,6 @@
 /*----------------------------------*\
  * $NAVBAR
  \*---------------------------------*/
-/*Header bar colour */
-.headerbar{
-    background-color:#fff;
-}
-
 /* Get logo in there */
 .logo {
    float: left;
@@ -15,6 +10,7 @@
     padding:0.8em;
     padding-left:0;
     width:4em;
+    height:4em;
 }
 .logocenter {
     height:50%;
@@ -98,7 +94,7 @@ Styles for screen 767px and lower
 */
 
 /*Styles for screen 515px and lower*/
-@media only screen and (max-width : 610px) {
+@media only screen and (max-width : 620px) {
 
     .logo {
         display:none;
@@ -124,6 +120,7 @@ Styles for screen 767px and lower
 	}
     nav a#pull img {
         width:4em;
+        height:4em;
         padding: 0.8em;
         padding-left:0;
         padding-top:1em; 

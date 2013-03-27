@@ -19,3 +19,7 @@ _site
 
 #sass specifics
 .sass-cache/
+
+# Don't upload Licensed fonts to git
+/assets/fonts/
+

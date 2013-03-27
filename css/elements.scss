@@ -1,10 +1,15 @@
-.pictureblock {
-    width:100%;
+.picture-fly {
+    background:url(/assets/fly20100222.jpg);
+    background-size:cover;
 }
-    .fly {
-        background:url(/assets/fly20100222.jpg);
-        background-size:cover;
-    }
+.picture-street {
+    background:url(/assets/street-20090108.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.white {
+    background-color:#fff;
+}
 .red {
     background-color:#be4040;
 }
@@ -19,4 +24,10 @@
 }
 .yellow {
     background-color:#f5dd11;
+}
+.dark {
+    background-color:#2f2f2f;
+}
+.light {
+    background-color:#f2f2f2;
 }
