@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="/css/itsmattallen.css">
     <link rel="shortcut icon" href="">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic|Open+Sans+Condensed:300,300italic' rel='stylesheet' type='text/css'> 
-</head
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jq/jquery.fittext.js"></script>
+    <script type="text/javascript">jQuery(document).ready(function($) {$("h9").fitText(0.8, {minFontSize: '32px', maxFontSize: '100px'})});</script>
+
+</head>
 <body>
 <!-- begin default header bar -->
-<div>
+<div class="white">
     <div class="wrapper">
-        <a class="logo" href="#"><img src="/assets/logo-a.svg" slt="/"></a>
+        <a class="logo"><img href="http://test.itsmattallen.co.uk/" src="/assets/logo-a.svg" slt="/"></a>
     <nav class="navfix">
         <ul class="navfix">
             <li><a href="/">Home</a></li>
@@ -28,12 +33,11 @@
 
 {{ content }}
 
+<!-- Begin footer bar default -->
 <footer class="felxi dark"><div class="lower2 wrapper spacer2">
     <div class="square2 padright"><h5 class="twhite tleft">BOOM &#169; Matthew Allen (sdmix) 2005-2013<br/>I built this website, after much screaming, gray hair forming and laptop smashing. The code is available on GitHub for you to learn from. It's built with Jekyll and SASS.</h5></div>
     <div class="square2 padleft"><h5 class="twhite tright">Don't be mean, keep it clean.<br/>I have an active social side. Get in touch!<br/>Twitter | Linkedin | Email</h5></div>
 </div></footer>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="jq/jquery.fittext.js"></script><script>jQuery("h9").fitText(0.87, {minFontSize: '24px', maxFontSize: '45px'})</script>
 <script>
 	$(function() {
 		var pull 		= $('#pull');
