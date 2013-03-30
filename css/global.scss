@@ -21,6 +21,9 @@ $maxwidth: 832px;
         padding-right:1em;
     }
 }
+.nopad {
+    padding:0em;
+}
 /*Global spacing units*/
 .spacer1 {
     margin-bottom:1em;
@@ -83,7 +86,7 @@ body {
     height:30em;
     padding-top:1em;
     @media only screen and (max-width:400px) {
-        height:auto;
+        height:13em;
     }
 }
 
@@ -91,7 +94,7 @@ body {
     height:15em;
     padding-top:1em;
     @media only screen and (max-width:400px) {
-        height:auto;
+        height:5.5em;
     }
 }
 
@@ -99,7 +102,7 @@ body {
     height:10em;
     padding-top:1em;
     @media only screen and (max-width:400px) {
-        height:auto;
+        height:3em;
     }
 }
 
