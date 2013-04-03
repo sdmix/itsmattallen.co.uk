@@ -43,8 +43,11 @@ $maxwidth: 832px;
 .lower3 {
     margin-top:3em;
 }
-.raise6 {
-    margin-top:-6em;
+.raise1 {
+    margin-top:-1em;
+}
+.raise2 {
+    margin-top:-2em;
 }
 /*$BODY*/
 body {
@@ -200,6 +203,16 @@ p {
     @media only screen and (max-width:615px) {
         font-size:1em;
     }
+}
+p a {
+    line-height:2em;
+    color: inherit;
+    text-decoration:underline;
+}
+p a:hover {
+    line-height:2em;
+    color: inherit;
+    text-decoration:none;
 }
 
 /* Default Square Text Styles FitText*/

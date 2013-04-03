@@ -13,9 +13,9 @@
     background-position:center;
 }
 .picture-project-immerse {
-    background:url(/assets/projects-immerse.jpg);
+    background:url(/assets/projects-immerse.png);
     background-size:cover;
-    background-position:left;
+    background-position:center;
 }
 .picture-project-googlepack {
     background:url(/assets/projects-googlepack.jpg);
@@ -23,12 +23,12 @@
     background-position:center;
 }
 .picture-project-batchwebfont {
-    background:url(/assets/projects-batchwebfont.jpg);
+    background:url(/assets/projects-batchwebfont.png);
     background-size:cover;
-    background-position:left;
+    background-position:center;
 }
 .picture-project-designmanifesto {
-    background:url(/assets/projects-designmanifesto.jpg);
+    background:url(/assets/projects-designmanifesto.png);
     background-size:cover;
     background-position:center;
 }
@@ -55,4 +55,24 @@
 }
 .light {
     background-color:#f1f1f1;
+}
+.theme {
+    background-color:$themecolor;
+}
+.bk-whitewall {
+    background-image:url(../assets/whitewallbk.png);
+    background-repeat:both;
+}
+.bk-smallgrid {
+    background-image:url(../assets/smallgrid.png);
+    background-repeat:both;
+}
+.bk-dark {
+    background-image:url(../assets/darkbk.png);
+    background-repeat:both;
+}
+.bk-shadow {
+    -moz-box-shadow:    0px 3px 10px 0px #808080;
+    -webkit-box-shadow: 0px 3px 10px 0px #808080;
+    box-shadow:         0px 3px 10px 0px #808080;
 }
