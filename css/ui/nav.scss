@@ -48,7 +48,7 @@ nav a {
 	width: 100px;
 	text-align: center;
 	text-decoration: none;
-	line-height: 6em;
+	line-height: 5.5em;
 }
 nav li:last-child a {
 	border-right: 0;
@@ -132,4 +132,33 @@ Styles for screen 767px and lower
 		float: none;
 		width: 100%;
 	}
+}
+
+
+/* SUBMENU */
+
+.submenu {
+	width: 400px;
+    float:right;
+	font-size: 1em;
+    line-height:2em;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 300;
+    display:table;
+}
+.submenu li{
+    width:25%;
+    color:#FFF;
+    float:right;
+    text-align:center;
+}
+.submenu a {
+    text-align:center;
+    color:#FFF;
+    text-decoration:underline;
+    text-align:center;
+}
+.submenu a:hover, .submenu a:active {
+    color:#FFF;
+    text-decoration:none;
 }
