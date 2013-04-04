@@ -76,3 +76,30 @@
     -webkit-box-shadow: 0px 3px 10px 0px #808080;
     box-shadow:         0px 3px 10px 0px #808080;
 }
+.border-top {
+    border-top: 1em solid #1f1f1f;
+}
+.border-bottom-zigzag:after {
+    content: " ";
+    display:block;
+    position: relative;
+    width: 100%;
+    bottom:-1.5em;
+    height:30px;
+    background: linear-gradient(-135deg, transparent 75%, $bodythemecolor 75%) 0 50%,
+    linear-gradient( 135deg, transparent 75%, $bodythemecolor 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size:30px 30px, 30px 30px;
+}
+.border-top-zigzag:before {
+    content: " ";
+    display:block;
+    position: relative;
+    width: 100%;
+    bottom:1.5em;
+    height:30px;
+    background: linear-gradient(-45deg, transparent 75%, $bodythemecolor 75%) 0 50%,
+    linear-gradient(45deg, transparent 75%, $bodythemecolor 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size:30px 30px, 30px 30px;
+}
