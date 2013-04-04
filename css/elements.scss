@@ -1,3 +1,4 @@
+
 .picture-fly {
     background:url(/assets/fly20100222.jpg);
     background-size:cover;
@@ -86,10 +87,11 @@
     width: 100%;
     bottom:-1.5em;
     height:30px;
-    background: linear-gradient(-135deg, transparent 75%, $bodythemecolor 75%) 0 50%,
-    linear-gradient( 135deg, transparent 75%, $bodythemecolor 75%) 0 50%;
+    background: -webkit-linear-gradient(225deg, transparent 65%, white 65%) 0 50%, -webkit-linear-gradient(315deg, transparent 65%, white 65%) 0 50%;
+    background: -moz-linear-gradient(225deg, transparent 65%, white 65%) 0 50%, -moz-linear-gradient(315deg, transparent 65%, white 65%) 0 50%;
+    background: -o-linear-gradient(225deg, transparent 65%, white 65%) 0 50%, -o-linear-gradient(315deg, transparent 65%, white 65%) 0 50%;
     background-repeat: repeat-x;
-    background-size:30px 30px, 30px 30px;
+    background-size: 30px 30px, 30px 30px;
 }
 .border-top-zigzag:before {
     content: " ";
@@ -98,8 +100,9 @@
     width: 100%;
     bottom:1.5em;
     height:30px;
-    background: linear-gradient(-45deg, transparent 75%, $bodythemecolor 75%) 0 50%,
-    linear-gradient(45deg, transparent 75%, $bodythemecolor 75%) 0 50%;
+    background: -webkit-linear-gradient(45deg, transparent 65%, white 65%) 0 50%, -webkit-linear-gradient(135deg, transparent 65%, white 65%) 0 50%;
+    background: -moz-linear-gradient(45deg, transparent 65%, white 65%) 0 50%, -moz-linear-gradient(135deg, transparent 65%, white 65%) 0 50%;
+    background: -o-linear-gradient(45deg, transparent 65%, white 65%) 0 50%, -o-linear-gradient(135deg, transparent 65%, white 65%) 0 50%;
     background-repeat: repeat-x;
     background-size:30px 30px, 30px 30px;
 }
