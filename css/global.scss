@@ -17,12 +17,12 @@ $maxwidth: 832px;
     max-width:800px;
     margin:0 auto;
     @media only screen and (max-width:$maxwidth) {
-        padding-left:1em;
-        padding-right:1em;
+        padding-left:16px;
+        padding-right:16px;
     }
 }
 .nopad {
-    padding:0em;
+    padding:0!important;
 }
 /*Global spacing units*/
 .spacer1 {
@@ -49,9 +49,15 @@ $maxwidth: 832px;
 .raise2 {
     margin-top:-2em;
 }
+.shorten1 {
+    margin-bottom:-1em;
+}
+.shorten2 {
+    margin-bottom:-2em;
+}
 /*$BODY*/
 body {
-    background-color:$bodythemecolor;
+    background-color:#1f1f1f;
 }
 
 /* Global floats */
