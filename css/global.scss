@@ -179,14 +179,10 @@ h3 {
 h4 {
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 4em;
-    color: rgba(242,242,242,0.3);
-    width:100%;
-    text-align: center;
-    position: absolute;
-    bottom: 0.2em;
+    font-size: 1.4em;
+    line-height:2em;
     @media only screen and (max-width : 615px) {
-        font-size: 3em;
+        font-size: 1.2em;
     }
 }
 
@@ -210,12 +206,12 @@ p {
         font-size:1em;
     }
 }
-p a, h5 a {
+p a, h5 a, h4 a {
     line-height:2em;
     color: inherit;
     text-decoration:underline;
 }
-p a:hover, h5 a:hover {
+p a:hover, h5 a:hover, h4 a:hover{
     line-height:2em;
     color: inherit;
     text-decoration:none;

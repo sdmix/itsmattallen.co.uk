@@ -1,0 +1,20 @@
+---
+layout: default
+title: Blog
+catagories: blog
+---
+
+<div class="theme flexi border-top-zigzag">
+    <div class="wrapper"><h2 class="twhite">Blog</h2></div>
+<div class="lower2 wrapper spacer3">
+{% for post in site.posts %}
+{% if post.categories contains 'blog' %}
+        
+<h4 class="twhite"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+<p class="twhite">{{ post.date | date: "%d %B %Y" }}: {{ post.content | strip_html | truncatewords: 20 }}</p>
+
+{% endif %}
+{% endfor %}
+
+</div>
+</div>
