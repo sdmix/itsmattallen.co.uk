@@ -9,5 +9,6 @@ catagories: blog
 
 <h2 class="lower2 wrapper ttheme spacer1">This is actually the fresh start.</h2>
 <div class="wrapper spacer2">
-    <p>So this is where it begins.</p>
+    <p>Well now, howdy!</p>
+    <p>I'm glad you've found me</p>
 </div>

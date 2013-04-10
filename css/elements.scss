@@ -1,4 +1,7 @@
-
+.blog-list:first-child {
+    padding-top:1em;
+    border-top: 1px solid $themecolor;
+}
 .picture-fly {
     background:url(/assets/fly20100222.jpg);
     background-size:cover;
@@ -86,7 +89,10 @@
     box-shadow:         0px 3px 10px 0px #808080;
 }
 .border-top {
-    border-top: 1em solid #1f1f1f;
+    border-top: 1px solid $themecolor;
+}
+.border-bottom {
+    border-bottom: 1px solid $themecolor;
 }
 .border-bottom-zigzag:after {
     content: " ";
