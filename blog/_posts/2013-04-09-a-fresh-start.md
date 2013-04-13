@@ -5,6 +5,7 @@ layout: post
 slug: a-fresh-start
 title: 'The fresh start of sdmix on the web'
 catagories: blog
+meta:
 ---
 
 <h2 class="lower2 wrapper ttheme spacer1">This is actually the fresh start.</h2>

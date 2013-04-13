@@ -9,23 +9,21 @@ catagories: blog
 <div class="lower2 wrapper">
 <p class="twhite">You'll find me talking geek here. Expect awesome articles on topics I find of
 interest, knowledge that I've learnt and would love to share with you all, plus the
-odd random posts on what I'm up to.</p> 
+odd random posts on what I have been up to.</p> 
 </div>
 </div>
 
 <div class="spacer3 wrapper flexi">
 <h2 class="spacer1">Get yourself a great British brew!</h2>
 <p>Then take a gander at the articles below and have a read!</p>
-<div class="spacer1 flexi border-bottom">
 <ul>
-<li class="blog-list">
+<li>
 {% for post in site.posts %}
 {% if post.categories contains 'blog' %}
-<p>{{ post.date | date: "%d %B %Y" }}</p>
-<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+<p class="lower1">{{ post.date | date: "%d %B %Y" }}</p>
+<h4 class="blog-list"><a href="{{ post.url }}">{{ post.title }}</a></h4>
 {% endif %}
 {% endfor %}
 </li>
 </ul>
-</div>
 </div>
