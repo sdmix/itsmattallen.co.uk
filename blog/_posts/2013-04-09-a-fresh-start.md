@@ -20,9 +20,20 @@ meta:
     make use of tools like vim and Sass, start version control on my website via GitHub
     and making use of OOCSS.</p>
 </div>
-<h2 class="lower2 wrapper ttheme spacer1">This site has been a learning curve.</h2>
+<h2 class="lower2 wrapper ttheme spacer1">The new identity. What can you expect?</h2>
 <div class="wrapper spacer2">
-    <p></p>
+    <p>So for those who have been here before and followed my old tumblr based portfolio
+    and blog, some things will be similar. You'll notice however I've given my personal
+    brand a nice kickstart and have written myself some style guidelines which I intend
+    to write a blog post on in the future. I've now got full power over my code, so I'm
+    hoping that the site is feeling snappier and more responsive. Speaking of which, you
+    can view this site on all your devices and screen sizes, go ahead, grab the corner of
+    your browser and shrink it down to see what happens.</p>
+    <p>With all of this means I'll be able to post more to my style and brand, keep things
+    in the right places, and give you guys a better reading experience. I do hope you a loving
+    the big type in comparison to my old site!</p>
+    <p>You can expect this blog to be filled with all sorts of cool posts, on design,
+    development and awesome topics from the great life itself.</p>
 </div>
 <h2 class="lower2 wrapper ttheme spacer1">Help a Designer out.</h2>
 <div class="wrapper spacer2">
@@ -38,3 +49,4 @@ meta:
     from it, also make sure to check out the places I've learnt what I now know from
     (see above) if you are interested in diving into code.</p>
 </div>
+<h2 class="lower2 wrapper ttheme spacer3">Signing off - Matt</h2>
