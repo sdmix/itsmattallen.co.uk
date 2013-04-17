@@ -16,7 +16,8 @@ meta:
     the ground up.</p>
     <p>I've learnt lots of new things recently, mainly thanks to the fantastic advice
     of <a href="http://csswizardry.com/" target="_blank">Harry Roberts</a> and his open
-    source framework <a href="http://inuitcss.com/" target="_blank">inuit.css</a>. This has allowed me to
+    source framework <a href="http://inuitcss.com/" target="_blank">inuit.css</a>. Although
+    now using inuit.css as a framework for this website, the knowledge has allowed me to
     make use of tools like vim and Sass, start version control on my website via GitHub
     and making use of OOCSS.</p>
 </div>
@@ -24,7 +25,7 @@ meta:
 <div class="wrapper spacer2">
     <p>So for those who have been here before and followed my old tumblr based portfolio
     and blog, some things will be similar. You'll notice however I've given my personal
-    brand a nice kickstart and have written myself some style guidelines which I intend
+    brand a nice kickstart and have written myself some style guidelines, I intend
     to write a blog post on in the future. I've now got full power over my code, so I'm
     hoping that the site is feeling snappier and more responsive. Speaking of which, you
     can view this site on all your devices and screen sizes, go ahead, grab the corner of
@@ -33,15 +34,15 @@ meta:
     in the right places, and give you guys a better reading experience. I do hope you a loving
     the big type in comparison to my old site!</p>
     <p>You can expect this blog to be filled with all sorts of cool posts, on design,
-    development and awesome topics from the great life itself.</p>
+    development and awesome topics from the life itself.</p>
 </div>
 <h2 class="lower2 wrapper ttheme spacer1">Help a Designer out.</h2>
 <div class="wrapper spacer2">
     <p>My main skill set dives me deep into creativity, photography and film, not
     developing and therefore putting my site up on GitHub allows you to view my code
     and how I've done what I have here. So if you notice anything a bit wrong, or
-    have any tips on ways I can keep on improving how I am doing things please drop
-    an issue over there and allow me to keep this flow going.</p>
+    have any tips on ways I can keep on improving how I am doing things please open up an
+    issue over there and allow me to keep this flow going.</p>
     <p>Although its quite obvious, my site is not open to be copied and still falls
     under the same <a href="http://copyright.itsmattallen.co.uk/" target="_blank">copyright</a>
     as all my other content which I place online. Please respect that. By all means
@@ -49,4 +50,4 @@ meta:
     from it, also make sure to check out the places I've learnt what I now know from
     (see above) if you are interested in diving into code.</p>
 </div>
-<h2 class="lower2 wrapper ttheme spacer3">Signing off - Matt</h2>
+<h2 class="lower2 wrapper ttheme">Signing off - Matt</h2>

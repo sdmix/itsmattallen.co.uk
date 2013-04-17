@@ -8,6 +8,7 @@
 $themecolor: #33a0a4;
 $bodythemecolor: #ffffff;
 $maxwidth: 832px;
+$smalltextmaxwidth: 721px;
 
 /* FONTS */
 @font-face {font-family: 'Verb';src: url('../assets/fonts/verb.eot');src: url('../assets/fonts/verb.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/verb.woff') format('woff'),url('../assets/fonts/verb.ttf') format('truetype'),url('../assets/fonts/verb.svg#wf') format('svg');}
@@ -152,7 +153,7 @@ h1 {
     font-size: 2em;
     color: $themecolor;
     line-height:1.5em;
-        @media only screen and (max-width:615px) {
+        @media only screen and (max-width:$smalltextmaxwidth) {
             font-size:1.5em;
 }}
 
@@ -162,7 +163,7 @@ h2 {
     font-size: 1.6em;
     line-height:1.5em;
     color: $themecolor;
-        @media only screen and (max-width:615px) {
+        @media only screen and (max-width:$smalltextmaxwidth) {
             font-size:1.2em;
 }}
 
@@ -181,7 +182,7 @@ h4 {
     font-weight: 400;
     font-size: 1.4em;
     line-height:2em;
-    @media only screen and (max-width : 615px) {
+    @media only screen and (max-width :$smalltextmaxwidth) {
         font-size: 1.2em;
     }
 }
@@ -191,7 +192,7 @@ h5 {
     font-weight: 300;
     font-size: 0.7em;
     line-height:1.5em;
-    @media only screen and (max-width : 615px) {
+    @media only screen and (max-width :$smalltextmaxwidth) {
         font-size: 0.8em;
     }
 }
@@ -202,7 +203,7 @@ p {
     font-size: 1.2em;
     line-height:2em;
     color: #000;
-    @media only screen and (max-width:615px) {
+    @media only screen and (max-width:$smalltextmaxwidth) {
         font-size:1em;
     }
 }
