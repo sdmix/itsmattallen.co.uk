@@ -23,3 +23,5 @@ _site
 # Don't upload Licensed fonts to git
 /assets/fonts/
 
+#Block .htaccess from uploading
+.htaccess
