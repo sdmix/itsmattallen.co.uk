@@ -10,6 +10,11 @@
     background:url(/assets/fly20100222.jpg);
     background-size:cover;
 }
+.picture-sofa {
+    background:url(/assets/sofa1.jpg);
+    background-size:cover;
+    background-position:center;
+}
 .picture-street {
     background:url(/assets/street-20090108.jpg);
     background-size:cover;
@@ -47,6 +52,16 @@
 }
 .picture-me {
     background:url(/assets/my-ugly-mug.png);
+    background-size:cover;
+    background-position:center;
+}
+.picture-404 {
+    background:url(/assets/404.png);
+    background-size:cover;
+    background-position:center;
+}
+.picture-403 {
+    background:url(/assets/403.png);
     background-size:cover;
     background-position:center;
 }

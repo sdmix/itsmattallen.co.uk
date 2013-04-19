@@ -1,6 +1,6 @@
 ---
 comments: false
-date: 2013-04-15
+date: 2013-04-19
 layout: post
 slug: a-fresh-start
 title: 'The fresh start of sdmix on the web'
