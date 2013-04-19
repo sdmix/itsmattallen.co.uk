@@ -17,7 +17,7 @@ meta:
     <p>I've learnt lots of new things recently, mainly thanks to the fantastic advice
     of <a href="http://csswizardry.com/" target="_blank">Harry Roberts</a> and his open
     source framework <a href="http://inuitcss.com/" target="_blank">inuit.css</a>. Although
-    now using inuit.css as a framework for this website, the knowledge has allowed me to
+    I'm not using inuit.css as a framework for this website, the knowledge has allowed me to
     make use of tools like vim and Sass, start version control on my website via GitHub
     and making use of OOCSS.</p>
 </div>
