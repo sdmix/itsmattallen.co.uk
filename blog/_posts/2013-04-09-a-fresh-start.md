@@ -8,7 +8,7 @@ catagories: blog
 meta:
 ---
 
-<h2 class="lower2 wrapper ttheme spacer1">This is a fresh start.</h2>
+<h1 class="lower1 wrapper ttheme spacer1">This is a fresh start.</h1>
 <div class="wrapper spacer2">
     <p>Well now, howdy!</p>
     <p>So over the last few months to kick start my 2013 I've deciced to dive back

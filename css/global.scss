@@ -207,13 +207,13 @@ p {
         font-size:1em;
     }
 }
-p a, h5 a, h4 a {
-    line-height:2em;
+p a, h2 a, h3 a, h4 a, h5 a {
+    line-height:inherit;
     color: inherit;
     text-decoration:underline;
 }
-p a:hover, h5 a:hover, h4 a:hover{
-    line-height:2em;
+p a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+    line-height:inherit;
     color: inherit;
     text-decoration:none;
 }
