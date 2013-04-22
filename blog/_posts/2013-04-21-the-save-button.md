@@ -3,7 +3,7 @@ comments: false
 date: 2013-04-21
 layout: post
 slug: save-button
-title: 'The save button is fine, leave it alone!'
+title: 'The save icon is fine, leave it alone!'
 catagories: blog
 meta:
 ---
@@ -15,7 +15,7 @@ meta:
 
 <p class="spacer1">Let's face it, when I say save icon, what do you think of? Bingo. That floppy disk inspired icon. This is exactly my point.</p>
 
-<p class="spacer1">The floppy disk inspired icon has grown into something so much more than what it used to represent and is now known both in new and old generations alike as the save icon, rather than the floppy disk. If you ask a child what a floppy disk is, they will probably have no idea (in fact, <a href="http://news.cnet.com/8301-17938_105-57580096-1/surprise-kids-dont-know-what-the-save-icon-stands-for/" target="_blank">only 14% do</a>), however if you ask them what the save icon looks like, they would probably be able to draw you a detailed drawing.</p>
+<p class="spacer1">The floppy disk inspired icon has grown into something so much more than what it used to represent and is now known both in new and old generations alike as the save icon, rather than the floppy disk. If you ask a child what a floppy disk is, they will probably have no idea (in fact, <a href="http://news.cnet.com/8301-17938_105-57580096-1/surprise-kids-dont-know-what-the-save-icon-stands-for/" target="_blank">only 14% do</a>), however they all know what the save icon looks like and would probably be able to draw a version of it.</p>
 
 <p class="spacer1">My point is mainly for those who want the icon to change purely because of its resemblance to the good old floppy disks which used to serve us all so well. Just because we don't use them anymore, doesn't mean the icon doesn't still function as the desired purpose. After all, there are plenty of icons out there which have no link to their purpose other than the fact people are used to using them as such, anyone thinking we should change the voicemail icon? No? So why is the save icon such a big deal?</p>
 
@@ -42,4 +42,4 @@ meta:
 <p class="spacer1">I guess, in the end, I sit further into the 'leave it alone' group and will stay here quite happily until a case is made which keeps everyone happy. </p>
 </div>
 
-<h2 class="lower2 ttheme">Signing off - Matt</h2>
+<h2 class="lower2  wrapper  ttheme">Signing off - Matt</h2>
