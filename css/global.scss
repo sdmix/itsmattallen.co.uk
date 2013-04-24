@@ -196,6 +196,15 @@ h5 {
         font-size: 0.8em;
     }
 }
+h6 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    line-height:1.5em;
+    @media only screen and (max-width :$smalltextmaxwidth) {
+        font-size: 0.8em;
+    }
+}
 /* Default paragraph styles */
 p {
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -207,12 +216,12 @@ p {
         font-size:1em;
     }
 }
-p a, h2 a, h3 a, h4 a, h5 a {
+p a, h2 a, h3 a, h4 a, h5 a, h6 a {
     line-height:inherit;
     color: inherit;
     text-decoration:underline;
 }
-p a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+p a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
     line-height:inherit;
     color: inherit;
     text-decoration:none;

@@ -144,3 +144,17 @@
     background-repeat: repeat-x;
     background-size:30px 30px, 30px 30px;
 }
+.btn-twitter {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#00aced;
+    line-height:inherit;
+    padding:0.5em 1.5em 0.5em 1.5em;
+}
+.btn-twitter:hover {
+    background-color:#00aced;
+    color:#ffffff;
+}
