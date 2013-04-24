@@ -158,3 +158,33 @@
     background-color:#00aced;
     color:#ffffff;
 }
+.btn-facebook {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#3b5998;
+    line-height:inherit;
+    padding:0.5em 1.5em 0.5em 1.5em;
+}
+.btn-facebook:hover {
+    background-color:#3b5998;
+    color:#ffffff;
+}
+
+
+
+/* DISQUS THEME */
+#disqus_thread a {
+    font-family: 'Open Sans', Helvetica, sans-serif; 
+    color: $themecolor;
+    text-decoration: underline;
+}
+#disqus_thread a:hover {
+    text-decoration: none;
+}
+#disqus_thread p {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
