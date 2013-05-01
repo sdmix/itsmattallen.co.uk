@@ -1,3 +1,9 @@
+.kudoshide {
+    @media only screen and (max-width:727px) {
+            display:none;
+}
+}
+
 p.count{
     display: block;
 }
@@ -70,7 +76,7 @@ a.count {
     text-decoration: none;
 }
 a.count span {
-    width:auto;
+    width:60px;
     text-transform:uppercase;
     font-family:"freight-sans-pro",sans-serif;
     margin-top:5px;
