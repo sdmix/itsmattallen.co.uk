@@ -1,5 +1,5 @@
 ---
-date: 2013-05-02
+date: 2013-05-03
 layout: post
 slug: YouTube-getting-started
 title: 'YouTube, why I’ve not started yet and more'
