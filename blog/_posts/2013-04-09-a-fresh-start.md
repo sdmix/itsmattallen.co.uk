@@ -3,8 +3,8 @@ comments: false
 date: 2013-04-19
 layout: post
 slug: a-fresh-start
-title: The Matt Allen (sdmix) Blog - The fresh start of sdmix on the web
-description: Have a read of how I started this lovely new site off and how it’s all starting to fall into place.
+title: The fresh start of sdmix on the web
+description: The Matt Allen (sdmix) Blog - Have a read of how I started this lovely new site off and how it’s all starting to fall into place.
 catagories: blog
 meta:
 ---
