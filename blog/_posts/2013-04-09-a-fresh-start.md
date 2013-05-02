@@ -50,4 +50,5 @@ meta:
     from it, also make sure to check out the places I've learnt what I now know from
     (see above) if you are interested in diving into code.</p>
 </div>
-<h2 class="lower2 wrapper ttheme">Signing off - Matt</h2>
+<h2 class="lower2  wrapper  ttheme">Signing off</h2>
+<h3 class="wrapper ttheme">that sdmix guy Matt Allen</h3>
