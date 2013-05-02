@@ -2,7 +2,8 @@
 date: 2013-05-03
 layout: post
 slug: YouTube-getting-started
-title: 'YouTube, why I’ve not started yet and more'
+title: The Matt Allen (sdmix) Blog - YouTube, why I’ve not started yet and more
+description: How do you get your video seen on YouTube? Why I am starting YouTube and what reasons you should have for also starting out!
 catagories: blog
 meta:
 ---

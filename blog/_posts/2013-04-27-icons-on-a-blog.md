@@ -2,7 +2,8 @@
 date: 2013-04-27
 layout: post
 slug: icons-on-a-blog
-title: 'Icon&#39;s on the web: Part 1'
+title: The Matt Allen (sdmix) Blog - Icon&#39;s on the web: Part 1
+decription: What are the best options to display your icons on your blogging website. How I am displaying mine and why.
 catagories: blog
 meta:
 ---

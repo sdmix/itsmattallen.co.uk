@@ -2,7 +2,8 @@
 date: 2013-04-24
 layout: post
 slug: pagination-needed
-title: 'Is there still a need for pagination?'
+title: The Matt Allen (sdmix) Blog - Is there still a need for pagination?
+description: Pagination has been dead for a while now hasn’t it? Isn’t it time to let it rest in peace?
 catagories: blog
 meta:
 ---

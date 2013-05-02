@@ -3,7 +3,8 @@ comments: false
 date: 2013-04-21
 layout: post
 slug: save-button
-title: 'The save icon is fine, leave it alone!'
+title: The Matt Allen (sdmix) Blog - The save icon is fine, leave it alone!
+description: Why I think that the save button needs to remain looking like that good old floppy disk, and why you should to!
 catagories: blog
 meta:
 ---
