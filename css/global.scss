@@ -216,6 +216,17 @@ p {
         font-size:1em;
     }
 }
+.list {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight:300;
+    font-size: 1.2em;
+    line-height:2em;
+    list-style-type: decimal;
+    color: #000;
+    @media only screen and (max-width:$smalltextmaxwidth) {
+        font-size:1em;
+    }
+}
 p a, h2 a, h3 a, h4 a, h5 a, h6 a {
     line-height:inherit;
     color: inherit;
