@@ -223,6 +223,7 @@ p {
     line-height:2em;
     list-style-type: decimal;
     color: #000;
+    padding-left:1.5em;
     @media only screen and (max-width:$smalltextmaxwidth) {
         font-size:1em;
     }

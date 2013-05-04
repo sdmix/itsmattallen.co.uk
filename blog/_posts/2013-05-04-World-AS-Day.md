@@ -9,7 +9,7 @@ meta:
 ---
 <div class="flexi"><div class="nopad spacer1 large picture-worldasday"></div></div>
 <div class="wrapper flexi">
-<h1 class="lower1 spacer1">Showing my support for AS sufferers</h1>
+<h1 class="lower1 spacer1">Showing support for AS sufferers around the world!</h1>
 <h2 class="ttheme spacer1">10 facts on Ankylosing Spondylitis</h2>
 <p class="spacer1">
 <ol class="list"><li>Ankylosing spondylitis is pronounced an-ki-low-sing spon-de-lie-tis and is called AS for short.
