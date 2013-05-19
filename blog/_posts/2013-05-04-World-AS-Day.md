@@ -7,7 +7,7 @@ description: The Matt Allen (sdmix) Blog - World Ankylosing Spondylitis day 2013
 catagories: blog
 meta:
 ---
-<div class="flexi"><div class="nopad spacer1 large picture-worldasday"></div></div>
+<div class="flexi"><div class="nopad  spacer1  large  picture-worldasday"></div></div>
 <div class="wrapper flexi">
 <h1 class="lower1 spacer1">Showing support for AS sufferers around the world!</h1>
 <h2 class="ttheme spacer1">10 facts on Ankylosing Spondylitis</h2>
