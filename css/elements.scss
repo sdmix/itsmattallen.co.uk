@@ -1,5 +1,6 @@
 .rslides {
-  position: relative;
+  position: fixed;
+  z-index:-1;
   list-style: none;
   overflow: hidden;
   width: 100%;
@@ -8,14 +9,10 @@
 }
 .rslides li {
   -webkit-backface-visibility: hidden;
-  position: absolute;
   display: none;
   width: 100%;
-  left: 0;
-  top: 0;
 }
 .rslides li:first-child {
-  position: relative;
   display: block;
   float: left;
 }
