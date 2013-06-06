@@ -1,3 +1,40 @@
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  max-width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.rslides img {
+  display: block;
+  float: left;
+  width: 100%; 
+  height:auto;
+  @media only screen and (max-width:$maxwidth) {
+    width:160%;
+    margin-left:-30%;
+    overflow:hidden; 
+  }
+  border: 0;
+}
+
 .blog-list:first-child {
     padding-top:1em;
     border-top: 1px solid $themecolor;
@@ -56,7 +93,7 @@
     background-position:center;
 }
 .picture-me {
-    background:url(/assets/my-ugly-mug.png);
+    background:url(/assets/my-ugly-mug.jpg);
     background-size:cover;
     background-position:center;
 }
