@@ -15,6 +15,7 @@ $smalltextmaxwidth: 721px;
 
 /* Global max width */
 .wrapper{
+    position:relative;
     max-width:800px;
     margin:0 auto;
     @media only screen and (max-width:$maxwidth) {
@@ -24,6 +25,10 @@ $smalltextmaxwidth: 721px;
 }
 .nopad {
     padding:0!important;
+}
+.holder {
+    min-height:100%;
+    position:relative;
 }
 /*Global spacing units*/
 .spacer1 {
@@ -60,6 +65,9 @@ $smalltextmaxwidth: 721px;
 body {
   background-color:#1f1f1f;
 }
+body, html {
+    height:100%;
+}
 
 /* Global floats */
 .leftalign {
@@ -85,15 +93,19 @@ body {
 
 /*Global sizes */
 .flexi {
+    height:auto;
     padding-top:1.5em;
     padding-bottom:1.5em;
 }
+
 .full {
     height:100%;
 }
 
 .large {
+    display:block;
     height:30em;
+    width:100%;
     padding-top:1em;
     @media only screen and (max-width:400px) {
         height:13em;
@@ -102,6 +114,7 @@ body {
 
 .medium {
     height:15em;
+    width:100%;
     padding-top:1em;
     @media only screen and (max-width:400px) {
         height:5.5em;
@@ -110,6 +123,7 @@ body {
 
 .small {
     height:10em;
+    width:100%;
     padding-top:1em;
     @media only screen and (max-width:400px) {
         height:3em;
