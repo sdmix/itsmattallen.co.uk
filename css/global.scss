@@ -49,17 +49,32 @@ $smalltextmaxwidth: 721px;
 .lower3 {
     margin-top:3em;
 }
+.inlower1 {
+    padding-top:1em;
+}
+.inlower2 {
+    padding-top:2em;
+}
+.inlower3 {
+    padding-top:3em;
+}
 .raise1 {
     margin-top:-1em;
 }
 .raise2 {
     margin-top:-2em;
 }
+.raise3 {
+    margin-top:-3em;
+}
 .shorten1 {
     margin-bottom:-1em;
 }
 .shorten2 {
     margin-bottom:-2em;
+}
+.shorten3 {
+    margin-bottom:-3em;
 }
 /*$BODY*/
 body {
