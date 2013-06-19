@@ -46,45 +46,63 @@
 
 /* STORE ELEMENTS */
 .mobilestore {
-    @media only screen and (min-width:501px) {
+    @media only screen and (min-width:621px) {
         display:none;
     }
 }
 .inlowerl1 {
-    @media only screen and (max-width:500px) {
+    @media only screen and (max-width:620px) {
         display:none;
     }
     padding-top:1em;
-    padding-right:15em;
+    padding-right:18em;
     padding-bottom:1em;
 }
 .inlowerl2 {
-    @media only screen and (max-width:500px) {
+    @media only screen and (max-width:620px) {
         display:none;
     }
     padding-top:2em;
-    padding-right:15em;
+    padding-right:18em;
     padding-bottom:2em;
 }
 .inlowerl3 {
-    @media only screen and (max-width:500px) {
+    @media only screen and (max-width:620px) {
         display:none;
     }
     padding-top:3em;
-    padding-right:15em;
+    padding-right:18em;
     padding-bottom:3em;
 }
 
 /* SHOP ITEMS */
 .picture-shop-manifesto {
-    background:url(/assets/shop-manifesto.png);
+    background:url(/assets/shop-manifesto.jpg);
     background-size:cover;
     background-position:center;
-    @media only screen and (max-width:500px) {
-        background-image:url(/assets/shop-manifesto-small.png);
+    @media only screen and (max-width:620px) {
+        background-position:70% 50%; 
+        @media only screen and (max-width:$smallelements) {
+            background:url(/assets/shop-manifesto-small.jpg);
+            background-size:cover;
+            background-position:center;
+        }
     }
 }
 
+.picture-shop-soon {
+    background:url(/assets/shop-soon.jpg);
+    background-size:cover;
+    background-position:center;
+    @media only screen and (max-width:620px) {
+        background-position:62% 50%; 
+        @media only screen and (max-width:$smallelements) {
+            background:url(/assets/shop-soon-small.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+    }
+}
 
 
 /* PICTURES */

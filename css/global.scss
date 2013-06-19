@@ -9,6 +9,7 @@ $themecolor: #33a0a4;
 $bodythemecolor: #ffffff;
 $maxwidth: 832px;
 $smalltextmaxwidth: 721px;
+$smallelements: 400px;
 
 /* FONTS */
 @font-face {font-family: 'Verb';src: url('../assets/fonts/verb.eot');src: url('../assets/fonts/verb.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/verb.woff') format('woff'),url('../assets/fonts/verb.ttf') format('truetype'),url('../assets/fonts/verb.svg#wf') format('svg');}
@@ -48,15 +49,6 @@ $smalltextmaxwidth: 721px;
 }
 .lower3 {
     margin-top:3em;
-}
-.inlower1 {
-    padding-top:1em;
-}
-.inlower2 {
-    padding-top:2em;
-}
-.inlower3 {
-    padding-top:3em;
 }
 .raise1 {
     margin-top:-1em;
@@ -122,7 +114,7 @@ body, html {
     height:30em;
     width:100%;
     padding-top:1em;
-    @media only screen and (max-width:400px) {
+    @media only screen and (max-width:$smallelements) {
         height:13em;
     }
 }
@@ -131,7 +123,7 @@ body, html {
     height:15em;
     width:100%;
     padding-top:1em;
-    @media only screen and (max-width:400px) {
+    @media only screen and (max-width:$smallelements) {
         height:5.5em;
     }
 }
@@ -140,7 +132,7 @@ body, html {
     height:10em;
     width:100%;
     padding-top:1em;
-    @media only screen and (max-width:400px) {
+    @media only screen and (max-width:$smallelements) {
         height:3em;
     }
 }
@@ -152,7 +144,7 @@ body, html {
         @media only screen and (max-width:$maxwidth) {
             width:90%
         }
-        @media only screen and (max-width:400px) {
+        @media only screen and (max-width:$smallelements) {
             padding-top:2em;
             padding-bottom:2em;
             width:70%;
