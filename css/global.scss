@@ -249,6 +249,26 @@ p {
         font-size:1em;
     }
 }
+.lists ol {
+    list-style-type: decimal; 
+    padding-left:1.9em;
+}
+.lists p {
+    padding-left:1em;
+}
+.lists li {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight:300;
+    font-size: 1.2em;
+    line-height:2em; 
+    padding-left:0.5em;
+    color: $themecolor;
+    @media only screen and (max-width:$smalltextmaxwidth) {
+        font-size:1em;
+    }
+}
+
+
 p a, h2 a, h3 a, h4 a, h5 a, h6 a {
     line-height:inherit;
     color: inherit;
@@ -258,6 +278,10 @@ p a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
     line-height:inherit;
     color: inherit;
     text-decoration:none;
+}
+
+.quote {
+    font-style:italic;
 }
 
 /* Default Square Text Styles FitText*/
