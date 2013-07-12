@@ -2,8 +2,8 @@
 date: 2013-06-19
 layout: post
 slug: xbox-one-update
-title: Opinion Piece - Follow up on Microsofts Xbox One. Responding to feedback, it’s good to listen, better to correctly inform to begin with.
-description: The Matt Allen (sdmix) Blog - Microsoft updates the new Xbox One polieces, no 24 hour authentication, no DRM, trading games open to all!
+title: Opinion Piece - Follow up on Microsofts Xbox One. Responding to feedback.
+description: The Matt Allen (sdmix) Blog - Microsoft updates the new Xbox One policies - No 24 hours authentication, No DRM and trading games open to all!
 catagories: blog
 ---
 <div class="wrapper">
@@ -11,7 +11,7 @@ catagories: blog
 <h2 class="ttheme  lower2  spacer1">Where did it all go wrong?</h2>
 <p class="spacer1">I’m no expert, but it’s safe to say that Microsoft has had a heavy amount of abuse since it’s E3 presentation and announcement of the Xbox One console. This isn’t to say that they were announcing a terrible product, more that they were simply explaining it wrong.</p>
 <p class="spacer1">Since then the internet has been awash of rumours, miss guided information and to be honest, just a complete storm of people screaming and pointing fingers to problems which didn’t exist in the first place.</p>
-<p class="spacer1">They new that these changes were huge, probably the biggest change that console gaming has ever seen. They new that educating people correctly first time was a must and that failure to do so would mean disaster, yet they still couldn’t get it right. Let backpack through a few points.</p>
+<p class="spacer1">They knew that these changes were huge, probably the biggest change that console gaming has ever seen. They knew that educating people correctly first time was a must and that failure to do so would mean disaster, yet they still couldn’t get it right. Let backpack through a few points.</p>
 </div>
 <div class="nopad  spacer1  large  picture-xboxone"><br/></div>
 <div class="wrapper">
@@ -36,7 +36,7 @@ catagories: blog
 </ol>
 </div>
 <h2 class="ttheme  lower2  spacer1">What does this new update mean?</h2>
-<p class="spacer1">The update <a href="http://news.xbox.com/2013/06/update" target="_blank">on Wednesday</a> basically sets new policies for the Xbox One and brings it back in line with those of the Xbox 360. This means that the 24 hour online authentication checks are no more and they will not be giving third party developers and publishers the ability to restrict second hand sales.</p>
+<p class="spacer1">The update <a href="http://news.xbox.com/2013/06/update" target="_blank">today</a> basically sets new policies for the Xbox One and brings it back in line with those of the Xbox 360. This means that the 24 hour online authentication checks are no more and they will not be giving third party developers and publishers the ability to restrict second hand sales.</p>
 <p class="spacer1">Microsoft also said the following:</p>
 <p class="spacer1  quote">“These changes will impact some of the scenarios we previously announced for Xbox One. The sharing of games will work as it does today, you will simply share the disc. Downloaded titles cannot be shared or resold. Also, similar to today, playing disc based games will require that the disc be in the tray.”</p>
 <p class="spacer1">This is the key part of the update that might end up being overlooked. In a nutshell, most of the awesome features I have stated above are now NOT going to be available to the Xbox One due to this reversal. This is a disappointing move and one which may appear to be a great move on the surface but deep down may hinder the experience of the console. It has changed a lot of core functionalities that I was looking forward to and means that the platform has actually become a lot more closed that it was appearing to be. Without the checks, none of the ‘Game Circles’ features will be available now for example.</p>
@@ -46,9 +46,9 @@ catagories: blog
 <p>Don’t judge a product on the sales pitch.</p>
 <h2 class="ttheme  lower2  spacer1">Planning for the future, forgetting about the present</h2>
 <p class="spacer1">The Xbox One had a proposal for a platform that was heading to the future. We all keep hearing that the future is in the cloud but console gaming keeps on staying well and truly flat on Earth and with this update, the Xbox One has plummeted at full speed with no parachute. It is no longer heading for the future, but staying in the present.</p>
-<p class="spacer1">I understand that these features will show there head again, but I seriously doubt it will be for another generation of consoles now, which means services like <a href="http://store.steampowered.com/" target="_blank">Steam</a> will have the advantage to take their heavily cloud based platform to the living room, and build a console that has been rumoured about for some time.</p>
+<p class="spacer1">I understand that these features will show their head again, but I seriously doubt it will be for another generation of consoles now, which means services like <a href="http://store.steampowered.com/" target="_blank">Steam</a> will have the advantage to take their heavily cloud based platform to the living room, and build a console that has been rumoured about for some time.</p>
 <h2 class="ttheme  lower2  spacer1">To sum it up</h2>
-<p class="spacer1">At the end of the day people don’t like change and the only way to move forward is sometimes to dive right in with a firm backbone believing in the product that you have created. Due to how Microsoft have handled educating the mass audience of their console on these new feature and policies the backlash was unbelievably negative and this new turn of events may show that Microsoft have the ability to listen to their customers, but also may be in doubt at whether they believed in the product to begin with or if they just gave up on attempting to educate people. </p>
+<p class="spacer1">At the end of the day people don’t like change and the only way to move forward is sometimes to dive right in with a firm backbone believing in the product that you have created. Due to how Microsoft have handled educating the mass audience of their console on these new features and policies the backlash was unbelievably negative and this new turn of events may show that Microsoft have the ability to listen to their customers, but also may be in doubt at whether they believed in the product to begin with or if they just gave up on attempting to educate people. </p>
 <p class="spacer1">We shall soon see if this decision was worth it and has effected the pre-order ratio which was originally listed at 1-9 in Sonys favour. Either way this is one nightmare that they are not going to forget any time soon.</p>
 </div>
 <h2 class="lower2  wrapper  ttheme">Signing off</h2>
@@ -57,4 +57,12 @@ catagories: blog
 <h3 class="ttheme  lower2">Sources used</h3>
 <p><a href="http://news.xbox.com/2013/06/license" target="_blank">Xbox One Gaming Licenses</a></p>
 <p class="spacer1"><a href="http://news.xbox.com/2013/06/privacy" target="_blank">Kinect Privacy</a></p>
+</div>
+    
+<div class="flexi blue  border-top-zigzag">
+    <div class="wrapper">
+        <p class="twhite  spacer1">Think this article is awesome? Click the star button below or use the social media
+links to share it with your friends. Don’t forget to check out my previous Xbox One article!</p>
+        <p class="twhite"><a href="/blog/">Head on back to view other articles</a></p>
+    </div>
 </div>
