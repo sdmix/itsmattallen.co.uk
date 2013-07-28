@@ -284,13 +284,29 @@ p a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
     font-style:italic;
 }
 
-/* Default Square Text Styles FitText*/
+/* IN PICTURE TEXT STYLES*/
 
 h9 {
-    font-family: 'Verb', Helvetica, sans-serif;
-    line-height:1.5em;
-    font-size:100px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size:2em;
+    line-height:1.9em;
+    font-weight:400;
+    @media only screen and (max-width:$smallelements) {
+        font-size:2em;
+        line-height:1.5em;
+        font-weight:300;
+    }
 }
+
+.header-picture h9 {
+    position:absolute;
+    bottom:3em;
+    @media only screen and (max-width:$smallelements) {
+        bottom:1.8em;
+    }
+}
+
+/*END*/
 
 .twhite {
     color:#FFF;
@@ -305,7 +321,8 @@ h9 {
     color:$themecolor;
 }
 .tshadow {
-    text-shadow: 0 0 2em #999999;
+    text-shadow: 0 0 2em #222222;
+    text-shadow: 0 0 1em #111111;
 }
 .tleft {
     text-align:left;
