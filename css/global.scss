@@ -286,6 +286,21 @@ p a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 
 /* IN PICTURE TEXT STYLES*/
 
+h8 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size:1.5em;
+    line-height:1.4em;
+    font-weight:400;
+    padding:0.5em;
+    margin-right:0.1em;
+    @media only screen and (max-width:$smallelements) {
+        font-size:1.0em;
+        line-height:0.9em;
+        font-weight:300;
+        padding:0.3em;
+    }
+}
+
 h9 {
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-size:2em;
@@ -298,11 +313,19 @@ h9 {
     }
 }
 
+.header-picture h8 {
+    position:absolute;
+    bottom:1.5em;
+    @media only screen and (max-width:$smallelements) {
+        bottom:0.5em;
+    }
+}
+
 .header-picture h9 {
     position:absolute;
     bottom:3em;
     @media only screen and (max-width:$smallelements) {
-        bottom:1.8em;
+        bottom:1.2em;
     }
 }
 
