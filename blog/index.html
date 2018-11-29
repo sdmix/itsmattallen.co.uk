@@ -6,26 +6,27 @@ catagories: blog
 ---
 
 <div class="theme flexi spacer1 border-top-zigzag border-bottom-zigzag">
-    <div class="wrapper"><h2 class="twhite">The blog of sdmix</h2></div>
-<div class="lower2 wrapper">
-<p class="twhite">You&#x2019;ll find me talking geek here. Expect awesome articles on topics I find of
-interest, knowledge that I&#x2019;ve learnt and would love to share with you all, plus the
-odd random posts on what I have been up to.</p> 
-</div>
+    <div class="wrapper">
+        <h2 class="twhite">The blog of sdmix</h2>
+    </div>
+    <div class="lower2 wrapper">
+        <p class="twhite">You&#x2019;ll find me talking geek here. Expect awesome articles on topics I find of
+            interest, knowledge that I&#x2019;ve learnt and would love to share with you all, plus the
+            odd random posts on what I have been up to.</p>
+    </div>
 </div>
 
 <div class="wrapper flexi">
-<h2 class="spacer1">Get yourself a great British brew!</h2>
-<p>Then take a gander at the articles below and have a read!</p>
-<ul>
-<li>
-{% for post in site.posts %}
-{% if post.categories contains 'blog' %}
-<p class="lower1">{{ post.date | date: "%d %B %Y" }}</p>
-<h4 class="blog-list"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-{% endif %}
-{% endfor %}
-</li>
-</ul>
-</div>
+    <h2 class="spacer1">Get yourself a great British brew!</h2>
+    <p>Then take a gander at the articles below and have a read!</p>
+    <ul>
+        <li>
+            {% for post in site.posts %}
+            {% if post.categories contains 'blog' %}
+            <p class="lower1">{{ post.date | date: "%d %B %Y" }}</p>
+            <h4 class="blog-list"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+            {% endif %}
+            {% endfor %}
+        </li>
+    </ul>
 </div>

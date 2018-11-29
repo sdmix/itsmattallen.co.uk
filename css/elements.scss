@@ -1,3 +1,10 @@
+.opening-quote {
+    background: rgba(31, 31, 31, 0.8);
+   
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
 .rslides {
   position: relative;
   list-style: none;
