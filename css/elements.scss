@@ -111,6 +111,10 @@
     }
 }
 
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
 
 /* PICTURES */
 .picture-fly {
@@ -168,9 +172,10 @@
     background-position:center;
 }
 .picture-me {
-    background:url(/assets/my-ugly-mug.jpg);
+    background:url(/assets/my-ugly-mug.jpg) repeat 0 0;
     background-size:cover;
     background-position:center;
+    -webkit-animation: slide 20s linear infinite;
 }
 .picture-404 {
     background:url(/assets/404.png);
