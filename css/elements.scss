@@ -113,7 +113,7 @@
 
 @-webkit-keyframes slide {
     from { background-position: 0 0; }
-    to { background-position: -400px 0; }
+    to { background-position: -2000px 0; }
 }
 
 /* PICTURES */
@@ -175,7 +175,7 @@
     background:url(/assets/my-ugly-mug.jpg) repeat 0 0;
     background-size:cover;
     background-position:center;
-    -webkit-animation: slide 20s linear infinite;
+    -webkit-animation: slide 140s linear infinite;
 }
 .picture-404 {
     background:url(/assets/404.png);
