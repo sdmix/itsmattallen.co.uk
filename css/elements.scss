@@ -1,3 +1,10 @@
+.opening-quote {
+    background: rgba(31, 31, 31, 0.8);
+   
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
 .rslides {
   position: relative;
   list-style: none;
@@ -104,6 +111,10 @@
     }
 }
 
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -2000px 0; }
+}
 
 /* PICTURES */
 .picture-fly {
@@ -161,9 +172,10 @@
     background-position:center;
 }
 .picture-me {
-    background:url(/assets/my-ugly-mug.jpg);
+    background:url(/assets/my-ugly-mug.jpg) repeat 0 0;
     background-size:cover;
     background-position:center;
+    -webkit-animation: slide 140s linear infinite;
 }
 .picture-404 {
     background:url(/assets/404.png);

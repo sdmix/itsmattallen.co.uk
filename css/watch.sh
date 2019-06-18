@@ -5,7 +5,7 @@
 # simply run `sh watch.sh`.
 
 
-sass --watch itsmattallen.scss:itsmattallen.css --style expanded
+# sass --watch itsmattallen.scss:itsmattallen.css --style expanded
 
 sass --watch itsmattallen.scss:itsmattallen.min.css --style compressed
 
